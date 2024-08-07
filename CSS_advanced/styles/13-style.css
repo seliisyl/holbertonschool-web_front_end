@@ -1,0 +1,21 @@
+/* Target anchor elements to remove default decorations (if needed) */
+a {
+  text-decoration: none; /* Ensure no underline by default */
+  color: var(--text-color); /* Apply default text color */
+}
+
+/* Target visited state of anchor elements */
+a:visited {
+  font-style: italic; /* Italicize text for visited links */
+}
+
+/* Target hover state of anchor elements */
+a:hover {
+  text-decoration: underline; /* Underline links when hovering */
+}
+
+/* Target active state of anchor elements */
+a:active {
+  background-color: var(--color-light-grey); /* Set background color to color-light-grey */
+}
+

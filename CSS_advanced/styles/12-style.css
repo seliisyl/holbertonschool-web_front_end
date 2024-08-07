@@ -1,0 +1,22 @@
+/* Define custom properties on the :root element */
+:root {
+  --section-title-margin: 0;
+  --section-title-color: var(--color-black); /* Ensure --color-black is defined */
+}
+
+/* Apply styles to the section-title class */
+.section-title {
+  font-family: var(--font-family-title); /* Use the font-family-title variable */
+  font-size: var(--font-size-xx-large); /* Set font size to font-size-xx-large */
+  font-weight: var(--font-weight-bold); /* Set font weight to font-weight-bold */
+  margin: var(--section-title-margin); /* Apply margin from section-title-margin */
+  color: var(--section-title-color); /* Set text color from section-title-color */
+}
+
+/* Ensure section-tagline is styled appropriately as per previous instructions */
+.section-tagline {
+  font-family: var(--font-family-title); /* Set font family to font-family-title */
+  text-transform: var(--section-tagline-transform); /* Apply uppercase transformation */
+  font-weight: var(--font-weight-bold); /* Set font weight to font-weight-bold */
+}
+
